@@ -2,9 +2,19 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+This small sample illustrates how to extend the PnP React SPFx ListView control with a contextual menu.
 
-[picture of the solution in action, if possible]
+In action this looks like:
+
+Choose a contextual action:
+
+![Choose a contextual action](./assets/02_employeelistview_ecb3.png)
+
+See the result:
+
+![See the result which action was clicked on which item](./assets/03_employeelistview_ecb_clicked3.png)
+
+For further details see the author's [blog post](https://mmsharepoint.wordpress.com/2018/03/11/extend-pnp-sharepoint-framework-react-listview-control-with-a-context-menu/)
 
 ## Used SharePoint Framework Version
 
@@ -15,24 +25,23 @@ Short summary on functionality and used technologies.
 - [SharePoint Framework](https://aka.ms/spfx)
 - [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
 
-> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
-
-## Prerequisites
-
-> Any special pre-requisites?
 
 ## Solution
 
-| Solution    | Author(s)                                               |
-| ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+Solution|Author(s)
+--------|---------
+react-listview-context-ecb| [Markus Moeller](https://github.com/mmsharepoint) ([@moeller2_0](http://www.twitter.com/moeller2_0))
 
 ## Version history
 
-| Version | Date             | Comments        |
-| ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
+Version|Date|Comments
+-------|----|--------
+1.0|December 26, 2022|Initial release
+
+## Disclaimer
+
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
 
 ## Disclaimer
 
@@ -47,8 +56,8 @@ Short summary on functionality and used technologies.
 - in the command-line run:
   - **npm install**
   - **gulp serve**
-
-> Include any additional steps as needed.
+- With Mockup data you are good to go
+- Now you can start to adjust to your own custom list data
 
 ## Features
 
@@ -56,18 +65,12 @@ Description of the extension that expands upon high-level summary above.
 
 This extension illustrates the following concepts:
 
-- topic 1
-- topic 2
-- topic 3
+- [PnP React SPFx control ListView](https://pnp.github.io/sp-dev-fx-controls-react/controls/ListView/)
+  - [Add contextual menu](https://pnp.github.io/sp-dev-fx-controls-react/controls/ListView.ContextualMenu/)
+- [FluentUI Contextual Menu](https://developer.microsoft.com/en-us/fluentui#/controls/web/contextualmenu)
 
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
 
 ## References
 
 - [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-- [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)
-- [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
-- [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
 - [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
